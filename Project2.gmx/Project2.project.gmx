@@ -41,7 +41,7 @@
       <sprite>sprites\spr_mplatform</sprite>
     </sprites>
     <sprite>sprites\spr_lives</sprite>
-    <sprite>sprites\spr_ckeckpoint</sprite>
+    <sprite>sprites\spr_checkpoint</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
@@ -53,6 +53,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_death.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_options</font>
@@ -72,6 +73,7 @@
       <object>objects\obj_lives</object>
       <object>objects\obj_walk</object>
       <object>objects\obj_oneway</object>
+      <object>objects\obj_checkpoint</object>
     </objects>
     <objects name="Enviorment">
       <object>objects\obj_bamboo</object>
@@ -84,6 +86,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_initialize</room>
     <room>rooms\startpage</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_tutorial</room>
