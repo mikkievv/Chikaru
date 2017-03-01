@@ -42,6 +42,7 @@
     </sprites>
     <sprite>sprites\spr_lives</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
+    <sprite>sprites\spr_lelijkepiemel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
