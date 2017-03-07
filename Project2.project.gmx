@@ -26,14 +26,10 @@
       <sprite>sprites\walk_text</sprite>
       <sprite>sprites\jump_text</sprite>
     </sprites>
-    <sprite>sprites\spr_grass</sprite>
     <sprites name="Enviorment">
       <sprite>sprites\spr_house1</sprite>
       <sprite>sprites\spr_bamboo</sprite>
       <sprite>sprites\spr_gate</sprite>
-      <sprite>sprites\spr_ikhoekje1L</sprite>
-      <sprite>sprites\spr_ikhoekje2L</sprite>
-      <sprite>sprites\spr_huilstruik</sprite>
     </sprites>
     <sprites name="Action Blocks">
       <sprite>sprites\spr_arrow</sprite>
@@ -47,7 +43,7 @@
     </sprites>
     <sprite>sprites\spr_lives</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
-    <sprite>sprites\sprite31</sprite>
+    <sprite>sprites\spr_baksteen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
@@ -82,14 +78,10 @@
       <object>objects\obj_checkpoint</object>
       <object>objects\obj_nextlvl</object>
     </objects>
-    <object>objects\obj_huilstruik</object>
     <objects name="Enviorment">
       <object>objects\obj_bamboo</object>
       <object>objects\obj_gate</object>
       <object>objects\obj_house1</object>
-      <object>objects\obj_ikhoekje1L</object>
-      <object>objects\obj_ikhoekje2L</object>
-      <object>objects\obj_grass</object>
     </objects>
     <objects name="Text Objects">
       <object>objects\text_jumpobj</object>
