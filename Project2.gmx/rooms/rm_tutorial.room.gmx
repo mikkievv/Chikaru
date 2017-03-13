@@ -1195,7 +1195,6 @@
     <instance objName="obj_walk" x="896" y="416" name="inst_738327B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_walk" x="928" y="416" name="inst_93124BF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_walk" x="960" y="416" name="inst_FC3B7140" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_nextlvl" x="2475" y="190" name="inst_4F2AE818" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje1" x="2416" y="304" name="inst_BD7EF1FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje1" x="2481" y="368" name="inst_889AD5E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje1" x="2576" y="463" name="inst_7B26083B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1235,6 +1234,7 @@
     <instance objName="obj_grass" x="2650" y="212" name="inst_FB7BDD60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="2667" y="211" name="inst_7193F78F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_grass" x="2673" y="214" name="inst_207AB58E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nextlvl" x="2478" y="200" name="inst_C328DCA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

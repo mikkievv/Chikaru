@@ -9925,7 +9925,6 @@
     <instance objName="obj_checkpoint" x="3072" y="832" name="inst_9AEB34B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="5376" y="1120" name="inst_D9BF53BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gate" x="7808" y="883" name="inst_19137FAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_nextlvl" x="7808" y="928" name="inst_A71F994C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="256" y="1856" name="inst_CA4D2457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje1" x="2256" y="432" name="inst_B6C4CF70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje1" x="2288" y="464" name="inst_C9996E20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -10002,6 +10001,7 @@
     <instance objName="obj_hoekje2" x="2799" y="499" name="inst_3210109A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje2" x="2830" y="435" name="inst_C6C2D42C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hoekje2" x="2863" y="371" name="inst_4B264A0E" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nextlvl" x="7798" y="903" name="inst_E01B4F57" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
