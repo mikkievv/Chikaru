@@ -1186,7 +1186,6 @@
     <instance objName="obj_ground1" x="2784" y="480" name="inst_1FF745BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground1" x="2688" y="320" name="inst_0776DBC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="1760" y="352" name="inst_16A79751" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_nextlvl" x="2461" y="180" name="inst_B4CDC2B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground1" x="0" y="64" name="inst_EEAFCC69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground1" x="32" y="64" name="inst_B974F365" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground1" x="0" y="32" name="inst_55AA5481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1197,6 +1196,7 @@
     <instance objName="obj_walk" x="896" y="416" name="inst_738327B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_walk" x="928" y="416" name="inst_93124BF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_walk" x="960" y="416" name="inst_FC3B7140" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nextlvl" x="2475" y="190" name="inst_4F2AE818" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

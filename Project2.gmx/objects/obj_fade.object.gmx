@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_fade</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>-9999</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -53,7 +53,7 @@ fade = 1;
 
 if (a == 1)
 {
-    room_goto_next();
+    if room_exists (room_next(room)) room_goto_next();
     fade = -1;
 }
 

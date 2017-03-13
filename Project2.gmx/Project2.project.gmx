@@ -7,6 +7,9 @@
   <sounds name="sound">
     <sound>sound\Butterfly_Lovers</sound>
     <sound>sound\Chinese_Dragon</sound>
+    <sound>sound\die_sound</sound>
+    <sound>sound\nextlvl_sound</sound>
+    <sound>sound\jump_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
