@@ -30,6 +30,7 @@
       <sprite>sprites\spr_house1</sprite>
       <sprite>sprites\spr_bamboo</sprite>
       <sprite>sprites\spr_gate</sprite>
+      <sprite>sprites\spr_bridge</sprite>
     </sprites>
     <sprites name="Action Blocks">
       <sprite>sprites\spr_arrow</sprite>
@@ -43,7 +44,7 @@
     </sprites>
     <sprite>sprites\spr_lives</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
-    <sprite>sprites\spr_baksteen</sprite>
+    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
@@ -78,6 +79,7 @@
       <object>objects\obj_checkpoint</object>
       <object>objects\obj_nextlvl</object>
     </objects>
+    <object>objects\obj_bridge</object>
     <objects name="Enviorment">
       <object>objects\obj_bamboo</object>
       <object>objects\obj_gate</object>
@@ -87,6 +89,7 @@
       <object>objects\text_jumpobj</object>
       <object>objects\walk_textobj</object>
     </objects>
+    <object>objects\obj_next</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
@@ -94,6 +97,7 @@
     <room>rooms\rm_menu</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_forest</room>
+    <room>rooms\rm_level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
