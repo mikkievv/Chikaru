@@ -7,6 +7,9 @@
   <sounds name="sound">
     <sound>sound\Butterfly_Lovers</sound>
     <sound>sound\Chinese_Dragon</sound>
+    <sound>sound\die_sound</sound>
+    <sound>sound\nextlvl_sound</sound>
+    <sound>sound\jump_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
@@ -25,12 +28,17 @@
     <sprites name="text">
       <sprite>sprites\walk_text</sprite>
       <sprite>sprites\jump_text</sprite>
+      <sprite>sprites\END_texr</sprite>
+      <sprite>sprites\space_text</sprite>
     </sprites>
     <sprites name="Enviorment">
       <sprite>sprites\spr_house1</sprite>
       <sprite>sprites\spr_bamboo</sprite>
       <sprite>sprites\spr_gate</sprite>
+      <sprite>sprites\spr_hoekje1</sprite>
+      <sprite>sprites\spr_hoekje2</sprite>
       <sprite>sprites\spr_bridge</sprite>
+      <sprite>sprites\spr_plantje</sprite>
     </sprites>
     <sprites name="Action Blocks">
       <sprite>sprites\spr_arrow</sprite>
@@ -44,7 +52,21 @@
     </sprites>
     <sprite>sprites\spr_lives</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
-    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\spr_grass</sprite>
+    <sprite>sprites\spr_rock</sprite>
+    <sprite>sprites\sprite32</sprite>
+    <sprite>sprites\spr_bamboo2</sprite>
+    <sprite>sprites\spr_cliffhanger</sprite>
+    <sprite>sprites\spr_cliffhanger2</sprite>
+    <sprite>sprites\spr_clifflinks</sprite>
+    <sprite>sprites\spr_clifflinks2</sprite>
+    <sprite>sprites\spr_crack2_0</sprite>
+    <sprite>sprites\spr_grass_new</sprite>
+    <sprite>sprites\spr_spikes</sprite>
+    <sprite>sprites\spr_steencrackzw</sprite>
+    <sprite>sprites\spr_wortels</sprite>
+    <sprite>sprites\sprite45</sprite>
+    <sprite>sprites\spr_steen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
@@ -60,6 +82,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_options</font>
+    <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -73,31 +96,51 @@
       <object>objects\obj_falldeath</object>
       <object>objects\obj_ground1</object>
       <object>objects\obj_fade</object>
+      <object>objects\obj_fade2</object>
       <object>objects\obj_lives</object>
       <object>objects\obj_walk</object>
       <object>objects\obj_oneway</object>
       <object>objects\obj_checkpoint</object>
       <object>objects\obj_nextlvl</object>
+      <object>objects\obj_nextlevel2</object>
     </objects>
-    <object>objects\obj_bridge</object>
     <objects name="Enviorment">
+      <object>objects\obj_bridge</object>
       <object>objects\obj_bamboo</object>
       <object>objects\obj_gate</object>
       <object>objects\obj_house1</object>
+      <object>objects\obj_hoekje1</object>
+      <object>objects\obj_hoekje2</object>
+      <object>objects\obj_plantje</object>
     </objects>
     <objects name="Text Objects">
       <object>objects\text_jumpobj</object>
       <object>objects\walk_textobj</object>
+      <object>objects\END_text</object>
     </objects>
-    <object>objects\obj_next</object>
+    <object>objects\obj_grass</object>
+    <object>objects\obj_rock</object>
+    <object>objects\obj_naarmenu</object>
+    <object>objects\obj_space_text</object>
+    <object>objects\obj_bamboo2</object>
+    <object>objects\obj_clifflinks1</object>
+    <object>objects\obj_clifflinks2</object>
+    <object>objects\obj_cliffre1</object>
+    <object>objects\obj_cliffre2</object>
+    <object>objects\obj_crack1</object>
+    <object>objects\obj_crack2</object>
+    <object>objects\obj_grass_new</object>
+    <object>objects\obj_spike</object>
+    <object>objects\obj_steen1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
     <room>rooms\startpage</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_tutorial</room>
-    <room>rooms\rm_forest</room>
+    <room>rooms\m_lvl1ste</room>
     <room>rooms\rm_level2</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
