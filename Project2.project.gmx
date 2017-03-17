@@ -66,7 +66,6 @@
     <sprite>sprites\spr_steencrackzw</sprite>
     <sprite>sprites\spr_wortels</sprite>
     <sprite>sprites\sprite45</sprite>
-    <sprite>sprites\spr_steen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
@@ -131,7 +130,6 @@
     <object>objects\obj_crack2</object>
     <object>objects\obj_grass_new</object>
     <object>objects\obj_spike</object>
-    <object>objects\obj_steen1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
@@ -141,6 +139,7 @@
     <room>rooms\m_lvl1ste</room>
     <room>rooms\rm_level2</room>
     <room>rooms\rm_end</room>
+    <room>rooms\rm_level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
